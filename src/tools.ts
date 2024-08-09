@@ -5,6 +5,7 @@ import getCryptoPriceTool from './tools/crypto-price-tracker';
 import getLastNewsTool from './tools/brave-search';
 import { ToolsAI } from './types/types';
 import fetchDuneDataTool from './tools/dune';
+import checkLighthHouse from './tools/google-lighthouse';
 
 const tools: ToolsAI[] = [];
 
@@ -13,6 +14,7 @@ tools.push(generateImageTool);
 tools.push(getCryptoPriceTool);
 tools.push(fetchDuneDataTool);
 tools.push(getLastNewsTool);
+tools.push(checkLighthHouse);
 
 const readMemory = () => {
   const memoryFilePath = './memory.txt';

@@ -27,5 +27,8 @@ export default {
     coin : {
         apiKey : "",
         defaultAsset : "USD"
+    },
+    googleLightHouse : {
+        apiKey : ""
     }
 };
